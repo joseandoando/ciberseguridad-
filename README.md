@@ -1,6 +1,9 @@
 # Portafolio de Ciberseguridad y Redes 🔐🌐
 
 Bienvenido a mi repositorio. Soy José Calfullan, apasionado por la ciberseguridad, redes y automatización.
+## 🛠 Scripts
+
+- `scripts/scan-infra.sh`: automatiza escaneo de red usando Nmap y guarda los resultados en `scan_result.txt`.
 
 Aquí encontrarás ejemplos reales de:
 
