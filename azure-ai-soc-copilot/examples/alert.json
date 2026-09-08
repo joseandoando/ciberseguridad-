@@ -1,0 +1,9 @@
+{
+  "event": "Multiple failed SSH login attempts",
+  "source_ip": "203.0.113.45",
+  "destination_ip": "10.10.10.41",
+  "user": "admin",
+  "attempts": 14,
+  "timestamp": "2026-09-08T12:30:00-03:00",
+  "source": "wazuh"
+}
