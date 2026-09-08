@@ -1,0 +1,10 @@
+aiohttp>=3.9
+botbuilder-core>=4.16
+botbuilder-schema>=4.16
+openai>=1.50
+python-dotenv>=1.0
+msal>=1.30
+requests>=2.32
+azure-functions>=1.21
+azure-search-documents>=11.5
+azure-core>=1.30
