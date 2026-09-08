@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "YOUR-TEAMS-APP-ID",
+  "packageName": "com.josecalfullan.enterpriseaibot",
+  "developer": {
+    "name": "Jose Calfullan",
+    "websiteUrl": "https://github.com/joseandoando",
+    "privacyUrl": "https://github.com/joseandoando",
+    "termsOfUseUrl": "https://github.com/joseandoando"
+  },
+  "name": {
+    "short": "Enterprise AI Bot",
+    "full": "Microsoft Teams Enterprise AI Support Bot"
+  },
+  "description": {
+    "short": "AI assistant for Microsoft Teams",
+    "full": "Python-based Microsoft Teams bot using Microsoft Bot Framework, Azure OpenAI, optional Azure AI Search RAG and Microsoft Graph integrations."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#6264A7",
+  "bots": [
+    {
+      "botId": "YOUR-MICROSOFT-APP-ID",
+      "scopes": ["personal", "team", "groupchat"],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": []
+}
